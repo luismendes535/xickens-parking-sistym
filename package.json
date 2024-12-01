@@ -1,0 +1,21 @@
+{
+  "name": "parking-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/parking.js",
+  "type": "module",
+  "entry": "parking.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/parking.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
